@@ -5,53 +5,50 @@ namespace ConsoleApp3
     public class Vehicle
     {
         private readonly string _vehicleName;
-        private readonly Transmission _transmission;
-        private readonly Chassis _chassis;
-        private readonly Engine _engine;
+        public Transmission Transmission { get; }
+        public Chassis Chassis { get; }
+        public Engine Engine { get; }
 
         public Vehicle(string name, Transmission transmission, Chassis chassis, Engine engine)
         {
             _vehicleName = name;
-            _transmission = transmission;
-            _chassis = chassis;
-            _engine = engine;
+            Transmission = transmission;
+            Chassis = chassis;
+            Engine = engine;
         }
 
-        public void GetName()
+        public string GetName()
         {
-            Console.WriteLine("Vehicle name:" + _vehicleName);
-            Console.WriteLine();
+            return _vehicleName;
         }
         
 
-        public void GetTransmissionData()
+        public string GetTransmissionData()
         {
-            Console.WriteLine("Transmission info:");
-            Console.WriteLine("Type: " + _transmission.Type);
-            Console.WriteLine("Number Of Gears: " + _transmission.NumberOfGears);
-            Console.WriteLine("Manufacturer: " + _transmission.Manufacturer);
-            Console.WriteLine();
             
+            return $"Transmission info: \n" +
+                   $"Type: {Transmission.Type} \n" +
+                   $"Number Of Gears: {Transmission.NumberOfGears} \n" +
+                   $"Manufacturer: {Transmission.Manufacturer} \n";
+
         }
         
-        public void GetEngineData()
+        public string GetEngineData()
         {
-            Console.WriteLine("Engine Info: ");
-            Console.WriteLine("Power: " + _engine.Power);
-            Console.WriteLine("Volume: " + _engine.Volume);
-            Console.WriteLine("Type: " + _engine.Type);
-            Console.WriteLine("Serial: " + _engine.Serial);
-            Console.WriteLine("Number: " + _engine.Number);
-            Console.WriteLine();
+            return $"Engine Info: \n" +
+                   $"Power: {Engine.Power} \n" +
+                   $"Volume: {Engine.Volume} \n" +
+                   $"Type: {Engine.Type} \n" +
+                   $"Serial: {Engine.Serial} \n" +
+                   $"Number: {Engine.Number} \n";
         }
         
-        public void GetChassisData()
+        public string GetChassisData()
         {
-            Console.WriteLine("Chassis info: ");
-            Console.WriteLine("Wheels Number: " + _chassis.WheelsNumber);
-            Console.WriteLine("Number: " + _chassis.Number);
-            Console.WriteLine("Permissible Load: " + _chassis.PermissibleLoad);
-            Console.WriteLine();
+            return $"Chassis info: \n" +
+                   $"Wheels Number: {Chassis.WheelsNumber} \n" +
+                   $"Number: {Chassis.Number} \n" +
+                   $"Permissible Load: {Chassis.PermissibleLoad} \n";
         }
     }
 }
