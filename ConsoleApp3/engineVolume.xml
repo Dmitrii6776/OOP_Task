@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<content>Truck 
+Chassis info: 
+Wheels Number: 4 
+Number: 6 
+Permissible Load: 3 
+Engine Info: 
+Power: 240 
+Volume: 2 
+Type: Diesel 
+Serial: ddfgf34 
+Number: 34r8u 
+Transmission info: 
+Type: Automatic 
+Number Of Gears: 6 
+Manufacturer: Chevrolet 
+<content>Bus 
+Chassis info: 
+Wheels Number: 4 
+Number: 343fb3 
+Permissible Load: 5 
+Engine Info: 
+Power: 160 
+Volume: 3 
+Type: Gas 
+Serial: 234i45ht242 
+Number: 3hkbti5 
+Transmission info: 
+Type: Mechanic 
+Number Of Gears: 6 
+Manufacturer: Mercedes 
+</content></content>

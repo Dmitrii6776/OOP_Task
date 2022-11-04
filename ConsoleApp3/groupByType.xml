@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<content>Mechanic : 
+<content>Passenger car 
+Chassis info: 
+Wheels Number: 4 
+Number: 1341234 
+Permissible Load: 2.1 
+Engine Info: 
+Power: 120 
+Volume: 1.4 
+Type: Gasoline 
+Serial: 234242 
+Number: 2453 
+Transmission info: 
+Type: Mechanic 
+Number Of Gears: 5 
+Manufacturer: Ford 
+</content><content>Bus 
+Chassis info: 
+Wheels Number: 4 
+Number: 343fb3 
+Permissible Load: 5 
+Engine Info: 
+Power: 160 
+Volume: 3 
+Type: Gas 
+Serial: 234i45ht242 
+Number: 3hkbti5 
+Transmission info: 
+Type: Mechanic 
+Number Of Gears: 6 
+Manufacturer: Mercedes 
+</content><content>Automatic : 
+</content><content>Truck 
+Chassis info: 
+Wheels Number: 4 
+Number: 6 
+Permissible Load: 3 
+Engine Info: 
+Power: 240 
+Volume: 2 
+Type: Diesel 
+Serial: ddfgf34 
+Number: 34r8u 
+Transmission info: 
+Type: Automatic 
+Number Of Gears: 6 
+Manufacturer: Chevrolet 
+</content><content>Scooter 
+Chassis info: 
+Wheels Number: 2 
+Number: 3rf 
+Permissible Load: 6 
+Engine Info: 
+Power: 50 
+Volume: 0.5 
+Type: Electric 
+Serial: 234242 
+Number: 1 
+Transmission info: 
+Type: Automatic 
+Number Of Gears: 3 
+Manufacturer: Suzuki 
+</content></content>
